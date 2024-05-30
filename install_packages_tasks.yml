@@ -1,0 +1,12 @@
+---
+- name: Install packages with apt.
+  hosts: servers
+  tasks:
+    - name: Install vim.
+      apt:
+        name: vim
+        update_cache: yes
+    - name: Install zip.
+      apt:
+        name: zip
+        update_cache: yes
