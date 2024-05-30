@@ -1,0 +1,5 @@
+- name: Creating a Hello World file.
+  copy:
+    dest: "/tmp/test2"
+    content: |
+      {{ inventory_hostname }}
