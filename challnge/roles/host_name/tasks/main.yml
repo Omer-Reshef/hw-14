@@ -1,4 +1,4 @@
-- name: Creating a Hello World file.
+- name: Creating a file with the current host name.
   copy:
     dest: "/tmp/test2"
     content: |

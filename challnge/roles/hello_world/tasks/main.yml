@@ -1,0 +1,5 @@
+- name: Creating a Hello World file.
+  copy:
+    dest: "/tmp/test1"
+    content: |
+      Hello World
